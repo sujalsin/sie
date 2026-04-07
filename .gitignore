@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.venv/
+venv/
+*.zip
+*ML Job Submission PDFs*

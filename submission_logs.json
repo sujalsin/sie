@@ -1,0 +1,64 @@
+[
+  {
+    "submission_id": "ml-job-sub-001",
+    "predicted_fields": {
+      "insured_name": {
+        "value": "ABC Manufacturing",
+        "source": "c9461f5aee9a13bd8dd49a32e85359524d6257e75acad8eb5b122ab751fcde6b",
+        "confidence": "high"
+      },
+      "business_description": {
+        "value": "Manufacturing",
+        "source": "c9461f5aee9a13bd8dd49a32e85359524d6257e75acad8eb5b122ab751fcde6b",
+        "confidence": "high"
+      },
+      "revenue": {
+        "value": 500000.0,
+        "source": "c3f86cd2985fe4c24b0197b56631cb539b07ee5c5f0ea7fc479bd6ecc08b9aa2",
+        "confidence": "high"
+      },
+      "payroll": {
+        "value": 200000.0,
+        "source": "c9461f5aee9a13bd8dd49a32e85359524d6257e75acad8eb5b122ab751fcde6b",
+        "confidence": "high"
+      },
+      "employee_count": {
+        "value": 12,
+        "source": "c9461f5aee9a13bd8dd49a32e85359524d6257e75acad8eb5b122ab751fcde6b",
+        "confidence": "high"
+      },
+      "effective_date": {
+        "value": "Jan 1",
+        "source": "c3f86cd2985fe4c24b0197b56631cb539b07ee5c5f0ea7fc479bd6ecc08b9aa2",
+        "confidence": "high"
+      },
+      "loss_runs_years": {
+        "value": 3,
+        "source": "d4de5218207db852965a3281ccc228e0b24fc6e4533ecca6b8467df1e00a7c1f",
+        "confidence": "high"
+      }
+    },
+    "decision": {
+      "decision": "READY",
+      "signals": {
+        "field_coverage": 1.0,
+        "rule_severity": "LOW",
+        "warning_count": 0,
+        "blocking_count": 0
+      }
+    },
+    "blocking_issues": [],
+    "ground_truth": null,
+    "metrics": {
+      "latency": {
+        "extraction": 8.133333,
+        "validation": 1.7e-05,
+        "decision": 3e-05,
+        "total": 8.222796
+      },
+      "model": "gemini",
+      "token_estimate": 2400.0,
+      "cost_estimate": 0.0006
+    }
+  }
+]

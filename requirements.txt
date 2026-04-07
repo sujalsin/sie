@@ -1,0 +1,5 @@
+# Gemini calls use urllib + REST (no google-generativeai wheel needed on Python 3.13+).
+certifi>=2024.0.0
+pypdf>=4.0.0
+python-dotenv>=1.0.0
+fpdf2>=2.7.0
